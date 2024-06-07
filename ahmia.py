@@ -68,7 +68,7 @@ def search_ahmia(query, history):
         if response.status_code == 200:
             parser = AhmiaHTMLParser()
             parser.feed(response.text)
-            history.append(query)  # Add query to history on successful search
+            history.append(query)
             return parser.results
         else:
             print(f"Error: {response.status_code}")
@@ -78,7 +78,7 @@ def search_ahmia(query, history):
         return []
 
 if __name__ == "__main__":
-    search_history = []  # List to store search history
+    search_history = [] 
     
     while True:
         clear_screen("BREAD ENGINE")
@@ -87,7 +87,6 @@ if __name__ == "__main__":
         print(Fore.BLUE + f"                    ================")
         print_ahmia_title()
 
-        # Display search history
         if search_history:
             print(Fore.LIGHTYELLOW_EX + "Search History:")
             for idx, item in enumerate(search_history, 1):
