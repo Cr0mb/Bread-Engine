@@ -9,8 +9,8 @@ It utilizes the Ahmia.fi website's search functionality to fetch results based o
 Update V1.1
 
 > Fixed the "onion_link" tag which did not properly fetch the onion link.
-> added logic for pagination (navigation commands), to keep the title at the top of the screen after searching.
-> added a search history and now tells you what you searched after searching.
+> added logic for navigation commands to add pages that can be moved through (does not cause a refresh/new ping) as well as keep the pyfiglet title after searching.
+> added a search history and now tells you what you searched after searching *only saves in lower cased format*.
 ```
 <img src="https://github.com/Cr0mb/Bread-Engine/assets/137664526/d22f05f6-2071-434d-8d1b-cf542926f185" width="500" height="auto" alt="image">
 <img src="https://github.com/Cr0mb/Bread-Engine/assets/137664526/fc8330cf-2f73-4528-b3c0-b7311d018d92" width="500" height="auto" alt="image">
