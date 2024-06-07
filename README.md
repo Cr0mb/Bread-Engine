@@ -12,8 +12,8 @@ Update V1.1
 > added logic for pagination (navigation commands), to keep the title at the top of the screen after searching.
 > added a search history and now tells you what you searched after searching.
 ```
-![image](https://github.com/Cr0mb/Bread-Engine/assets/137664526/d22f05f6-2071-434d-8d1b-cf542926f185)
-![image](https://github.com/Cr0mb/Bread-Engine/assets/137664526/fc8330cf-2f73-4528-b3c0-b7311d018d92)
+<img src="https://github.com/Cr0mb/Bread-Engine/assets/137664526/d22f05f6-2071-434d-8d1b-cf542926f185" width="500" height="auto" alt="image">
+<img src="https://github.com/Cr0mb/Bread-Engine/assets/137664526/fc8330cf-2f73-4528-b3c0-b7311d018d92" width="500" height="auto" alt="image">
 
 
 ### Prerequisites
