@@ -5,8 +5,16 @@
 This is a Python script named "Bread Engine" that allows you to search for results on the Ahmia search engine directly from your terminal. 
 It utilizes the Ahmia.fi website's search functionality to fetch results based on your query.
 
-### Prerequisites
-Before running the script, ensure you have the following dependencies installed:
+```
+Update V1.1
+
+> Fixed the "onion_link" tag which did not properly fetch the onion link.
+> added logic for pagination (navigation commands), to keep the title at the top of the screen after searching.
+> added a search history and now tells you what you searched after searching.
+```
+![image](https://github.com/Cr0mb/Bread-Engine/assets/137664526/d22f05f6-2071-434d-8d1b-cf542926f185)
+![image](https://github.com/Cr0mb/Bread-Engine/assets/137664526/fc8330cf-2f73-4528-b3c0-b7311d018d92)
+
 
 ### Prerequisites
 Before running the script, ensure you have the following dependencies installed:
